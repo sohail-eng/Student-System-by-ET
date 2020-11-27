@@ -12,9 +12,21 @@ namespace Student_System_by_ET
 {
     public partial class Form7 : Form
     {
-        public Form7()
+        Form1 f;
+        public Form7(Form1 f)
         {
             InitializeComponent();
+            this.f = f;
+        }
+
+        private void Form7_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form7_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            f.Show();
         }
     }
 }

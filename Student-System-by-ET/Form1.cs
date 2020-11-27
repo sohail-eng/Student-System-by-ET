@@ -19,51 +19,56 @@ namespace Student_System_by_ET
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form2 f = new Form2();
+            Form2 f = new Form2(this);
             f.Show();
             this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form3 f = new Form3();
+            Form3 f = new Form3(this);
             f.Show();
             this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Form4 f = new Form4();
+            Form4 f = new Form4(this);
             f.Show();
             this.Hide();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Form5 f = new Form5();
+            Form5 f = new Form5(this);
             f.Show();
             this.Hide();
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            Form6 f = new Form6();
+            Form6 f = new Form6(this);
             f.Show();
             this.Hide();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            Form7 f = new Form7();
+            Form7 f = new Form7(this);
             f.Show();
             this.Hide();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Form8 f = new Form8();
+            Form8 f = new Form8(this);
             f.Show();
             this.Hide();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
